@@ -1,0 +1,32 @@
+{
+    "name": "gilbertojb/app-skeleton",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "slim/slim": "^4.10",
+        "slim/twig-view": "^3.3",
+        "slim/csrf": "^1.2",
+        "slim/flash": "^0.4.0",
+        "php-di/php-di": "^6.4",
+        "slim/psr7": "^1.5",
+        "vlucas/phpdotenv": "^5.4",
+        "monolog/monolog": "^2.5",
+        "doctrine/dbal": "^3.3",
+        "ext-pdo": "*",
+        "league/csv": "^9.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.0"
+    },
+    "scripts": {
+        "start": [
+            "Composer\\Config::disableProcessTimeout",
+            "php -S localhost:3030 -t public"
+        ]
+    }
+}
