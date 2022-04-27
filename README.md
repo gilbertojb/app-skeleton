@@ -10,6 +10,7 @@
 # Como iniciar meu novo projeto
 
 - [ ] Instalar dependências `composer.phar install`
+- [ ] Criar o banco de dados e importar arquivo `database.sql`
 - [ ] Criar o arquivo `.env`. (pode duplicar o arquivo .env.example)
 - [ ] Rodar o projeto com o comando `composer.phar start`
 
